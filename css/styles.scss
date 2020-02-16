@@ -1,0 +1,146 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: $mainFont;
+}
+
+input, button:focus {
+  outline: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  margin-right: 190px;
+}
+
+.main-text{
+  margin-bottom: 40px;
+}
+
+.reg-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reg-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.reg-text {
+  margin-right: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.reg-field {
+  width: 136px;
+  height: 20px;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.error-text {
+  font-size: 12px;
+  display: none;
+}
+
+.invalid-color {
+  color: $invalidColor;
+}
+
+.checklist-wrapper {
+  width: 320px;
+  height: 240px;
+}
+
+.checklist-block {
+  flex-flow: column nowrap;
+}
+
+.checklist-text {
+  align-self: flex-start;
+  margin-bottom: 25px;
+}
+
+.reg-checkbox {
+  margin-right: 5px;
+}
+
+.submit-button {
+  width: 160px;
+  height: 30px;
+}
+
+.blue-btn {
+  background: #c9e7ec;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.account-wrapper {
+  display: none;
+  flex-flow: column nowrap;
+  width: 310px;
+  padding: 24px;
+}
+
+.blue-block {
+  background: #d9dadd;
+}
+
+.gray-borders {
+  border: 1px solid #6b6b6c;
+}
+
+.small-radius-block {
+  border-radius: 5px;
+}
+
+.account-main-text {
+  margin-bottom: 25px;
+  align-self: center;
+}
+
+.account-block {
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  margin-left: 18px;
+}
+
+.valid-field {
+  border: 1px solid $validColor;
+}
+
+.invalid-field {
+  border: 1px solid $invalidColor;
+}
+
+.lodgings-text {
+  margin-bottom: 5px;
+}
+
+.checkbox-result-text {
+  margin-bottom: 2px;
+}
